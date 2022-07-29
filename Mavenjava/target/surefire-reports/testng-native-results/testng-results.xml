@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-08T20:57:46 IST" name="Surefire suite" finished-at="2021-02-08T20:57:46 IST" duration-ms="37">
+    <groups>
+    </groups>
+    <test started-at="2021-02-08T20:57:46 IST" name="Surefire test" finished-at="2021-02-08T20:57:46 IST" duration-ms="37">
+      <class name="qatesting.Mavenjava.ExcelTest">
+        <test-method signature="apple()[pri:0, instance:qatesting.Mavenjava.ExcelTest@146044d7]" started-at="2021-02-08T20:57:46 IST" name="apple" finished-at="2021-02-08T20:57:46 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+      </class> <!-- qatesting.Mavenjava.ExcelTest -->
+      <class name="qatesting.Mavenjava.PracticeTest">
+        <test-method signature="prac()[pri:0, instance:qatesting.Mavenjava.PracticeTest@1e9e725a]" started-at="2021-02-08T20:57:46 IST" name="prac" finished-at="2021-02-08T20:57:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prac -->
+      </class> <!-- qatesting.Mavenjava.PracticeTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

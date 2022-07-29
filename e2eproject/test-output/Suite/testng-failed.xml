@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="e2eproject.TestListeners"/>
+  </listeners>
+  <test parallel="none" name="Validating user login(failed)">
+    <classes>
+      <class name="e2eproject.validateNavi">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- e2eproject.validateNavi -->
+      <class name="e2eproject.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation1"/>
+        </methods>
+      </class> <!-- e2eproject.HomePage -->
+      <class name="e2eproject.ValidTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- e2eproject.ValidTitle -->
+    </classes>
+  </test> <!-- Validating user login(failed) -->
+  <test parallel="none" name="Validating title in the page(failed)">
+    <classes>
+      <class name="e2eproject.validateNavi">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- e2eproject.validateNavi -->
+      <class name="e2eproject.ValidTitle">
+        <methods>
+          <include name="basePageNavigation3"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- e2eproject.ValidTitle -->
+      <class name="e2eproject.HomePage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- e2eproject.HomePage -->
+    </classes>
+  </test> <!-- Validating title in the page(failed) -->
+  <test parallel="none" name="Validating navigation bar(failed)">
+    <classes>
+      <class name="e2eproject.validateNavi">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation2"/>
+        </methods>
+      </class> <!-- e2eproject.validateNavi -->
+      <class name="e2eproject.HomePage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- e2eproject.HomePage -->
+      <class name="e2eproject.ValidTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- e2eproject.ValidTitle -->
+    </classes>
+  </test> <!-- Validating navigation bar(failed) -->
+</suite> <!-- Failed suite [Suite] -->

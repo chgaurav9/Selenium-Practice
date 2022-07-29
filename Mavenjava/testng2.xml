@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<packages><package name=""></package></packages>
+<listeners><listener class-name="package2.Listeners"></listener></listeners>
+
+
+  <test thread-count="5" name="Test">
+  
+  
+  <parameter name="param" value="switch"/>
+  <groups>
+  <run>
+  <include name="switch">
+  </include>
+  </run>
+  </groups> 
+    <classes>
+     <class name="package2.deloitte">
+     
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

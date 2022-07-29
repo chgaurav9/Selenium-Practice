@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.275001">
+    <testcase classname="Test the background feature in AUT" name="_2" time="0.270247">
+        <system-out>
+            <![CDATA[Given User is on EDU Teller Login Page......................................passed
+When User checks for Add Money..............................................passed
+Then Enter Account number details and Search................................passed
+And Closes..................................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Test the background feature in AUT" name="User checks for My Customers" time="0.004754">
+        <system-out>
+            <![CDATA[Given User is on EDU Teller Login Page......................................passed
+When The user checks for My Customers link..................................passed
+Then All Customer details displayed.........................................passed
+And Closes The Browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
